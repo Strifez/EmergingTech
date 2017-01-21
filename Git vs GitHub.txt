@@ -1,0 +1,82 @@
+Git vs GitHub
+
+Git is the local repository of your project on your local machine
+GitHub is the Cloud repository which allows others to access and collaborate on the project
+
+
+Command Line to make the git folder, add all files to the staging area
+
+>git init
+>git add.   // add something to the staging area (checking all the files that are being put in the repo)
+>git commit -m "initial commit"  // first commit you would right this (record keeping, snapshot of the current files) 
+
+Add a remote to put it on GitHub
+
+>git remote add origin "some URL.git"
+>git push -u origin master        //push uploads to the remote and -u means unconditional
+
+
+
+
+
+
+
+Installing GIT , you will need to add enviornment variables or git will never work
+
+Change the PATH in both the user variables and system variables section in order for Git and many other softwares to work
+Go to C users and app data (hidden)
+Github folder and find cmd folder
+Copy the address and double click on path 
+click new and add the path to the user and system variables.
+
+do the same for node.js
+(but its going to be in the program files)
+
+
+
+
+
+
+
+
+
+
+Installing MONGO
+
+Go to C disk, and create a folder called data and inside the data create a db folder
+
+go to website mongo and install "Windows server 2008 64bit, without SSl support x64"
+
+Go to cmd and type mongod 
+if it doesnt work fix the the enviornment variable (go to C program files mongo db server 3.4 bin)  
+
+On Windows 7 you only need to do the user variables.
+
+
+
+
+
+
+
+
+Heroku and mLab is with jason.huang11@hotmail.ca 
+
+
+
+
+
+
+
+
+Install nodemon 
+(To allow the server to keep on running)
+Install lite-server 
+Install express application generator
+Install bower
+(pulls css automatically)
+Install Gulp
+(minimize your files to improve your performance in your projects)
+
+Understand what Blocking and NonBlocking is (visit the Nodejs website)
+express app on heroku
+
