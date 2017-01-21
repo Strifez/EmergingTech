@@ -13,7 +13,7 @@ const port = 3000;
 app.listen(port);
 console.log(`Server Started at http://localhost:$(port)`);
 
-let home = (req, res, next) =>
+function home (req, res, next)
 {
     res.setHeader('Content-Type', 'text/plain');
     res.end('Welcome');
