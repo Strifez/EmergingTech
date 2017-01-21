@@ -4,11 +4,24 @@
   "description": "Demo app for NodeJS",
   "main": "App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [
     "nodeJS"
   ],
   "author": "Jason Huang",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.5.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strifez/EmergingTech.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Strifez/EmergingTech/issues"
+  },
+  "homepage": "https://github.com/Strifez/EmergingTech#readme"
 }
